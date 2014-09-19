@@ -2,11 +2,41 @@
 <html>
 <head>
 	<title>Listo</title>
+	<link rel="stylesheet" type="text/css" href="app/Styles/styles.css">
 </head>
 <body>
+
+<div class="new-item-header">
+	<button href="#" class="pull-right pencil" id="newListItem" style="">New</button>
+</div>
+
+<form id="newTaskForm">
+	<label>New ToDo Item</label>
+	<input id="newItemInput" placeholder="A great thing I will accomplish">
+	<button id="saveNewItem">Save</button>
+	<button id="cancel">Cancel</button>
+</form>
+
+
+<div class="panel" id="newList">
+	New List
+</div>
+
+
+
+
+<div class="panel" id="progress">
+	Working on it
+	<ul class="list-group" id="currentList"></ul>
+</div>
+<div class="panel" id="finish">
+	Worked on it and finished it
+	<ul class="list-group" id="archivedList"></ul>
+</div>
 
 
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="app/main.js"></script>
 </body>
 </html>
