@@ -1,0 +1,102 @@
+body {
+	font-size: 2rem;
+	font-family:'Vollkorn', Georgia;
+	color:white;
+	background-image:url(http://th07.deviantart.net/fs71/PRE/f/2012/251/f/0/sunset_over_water_by_leroydaninja-d5e1w90.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 100%;
+	background-color: black;
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+	color:white;
+}
+a:visited {
+	text-decoration: none;
+	color:white;
+}
+header {
+	text-align: left;
+	color:white;
+	font-size: 4rem
+}
+
+
+button {
+	display:inline-flex;
+	justify-content: space-around;
+	width:80px;
+	height:40px;
+    box-shadow: 0px 2px 8px 2px #444;
+    background-image: repeating-linear-gradient( 180deg, #999, #333); 
+}
+
+button:hover {
+	color:white;
+}
+
+.new-item-header {
+
+	font-size: 1rem;
+	width:100px;
+	padding:10px;
+}
+
+/*Format for input box*/
+form {
+	text-align: center;
+	margin-bottom: 65px;
+	margin-right: auto;
+	margin-left: auto;
+	height:100px;
+	width:300px;
+}
+input {
+	height:30px;
+	width:200px;
+	background:white;
+	color:black;
+	margin:5px;
+	transition: width .5s ease;
+}
+input:focus {
+	width:280px;
+}
+
+
+/*The to do panels*/
+.panel {
+	text-align:center;
+	background: rgba(255,255,255,0.1);
+	display: inline-block;
+	width:30%;
+	height:400px;
+	margin:10px;
+	overflow: scroll;
+}
+
+
+li {
+	display:float;
+	text-decoration: none;
+	border-width: 100px
+	font-size: .5rem;
+	list-style-type: none;
+
+}
+
+#back-arrow-1 {
+	float:left;
+}
+
+i{
+	background:none;
+	float:right;
+}
+
+
+
+
+
